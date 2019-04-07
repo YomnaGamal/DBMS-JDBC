@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="table1">
+        <complexType>
+            <sequence>
+                <xs:element name="column1" type="xs:int"/>
+                <xs:element name="column2" type="xs:varchar"/>
+            </sequence>
+        </complexType>
+    </xs:element>
+</xs:schema>
